@@ -45,13 +45,14 @@ body {
     margin-bottom: 1rem;
 }
 
-.container h2 {
+.container h1 {
     color: var(--white);
     margin: 1rem 0.5rem 0.5rem 0;
     cursor: pointer;
+    font-size: 22px;
 }
 
-.container h2:hover {
+.container h1:hover {
     color: var(--cyan);
 }
 
@@ -139,7 +140,7 @@ body {
 }
 
 .attribution a { 
-    color: hsl(228, 45%, 44%); 
+    color: #fff; 
 }
 
 @media (max-width: 375px) {
